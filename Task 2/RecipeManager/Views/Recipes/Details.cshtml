@@ -1,0 +1,20 @@
+@model Recipe
+
+<h1>@Model.Title</h1>
+
+<div>
+    <h4>Description</h4>
+    <p>@Model.Description</p>
+</div>
+
+<div>
+    <h4>Ingredients</h4>
+    <p>@Model.Ingredients</p>
+</div>
+
+<div>
+    <h4>Instructions</h4>
+    <p>@Model.Instructions</p>
+</div>
+
+<a asp-action="Home" class="btn btn-secondary">Back to List</a>
